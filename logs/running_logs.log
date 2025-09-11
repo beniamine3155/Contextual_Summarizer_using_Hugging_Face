@@ -32,3 +32,13 @@ TypeError: DataIngestionConfig.__init__() missing 1 required positional argument
 [2025-09-11 12:53:56,624: INFO: common]: created directory at: artifacts/data_ingestion
 [2025-09-11 12:53:59,544: INFO: data_ingestion]: Downloaded file from https://github.com/krishnaik06/datasets/raw/refs/heads/main/summarizer-data.zip to artifacts/data_ingestion/data.zip.
 [2025-09-11 12:53:59,662: INFO: main]: Stage Data Ingestion stage Completed
+[2025-09-11 15:39:22,695: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-11 15:39:22,699: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-11 15:39:22,699: INFO: common]: created directory at: artifacts
+[2025-09-11 15:41:27,354: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-11 15:41:27,358: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-11 15:41:27,361: INFO: common]: created directory at: artifacts
+[2025-09-11 15:43:44,610: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-11 15:43:44,612: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-11 15:43:44,612: INFO: common]: created directory at: artifacts
+[2025-09-11 15:43:44,613: INFO: common]: created directory at: artifacts/data_transformation
