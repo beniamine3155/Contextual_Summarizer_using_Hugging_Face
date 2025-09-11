@@ -5,6 +5,7 @@ import yaml
 from src.Contextual_Summarizer.logging import logger
 from typing import Any
 from pathlib import Path
+from ensure import ensure_annotations
 
 
 @ensure_annotations
