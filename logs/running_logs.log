@@ -42,3 +42,16 @@ TypeError: DataIngestionConfig.__init__() missing 1 required positional argument
 [2025-09-11 15:43:44,612: INFO: common]: yaml file: params.yaml loaded successfully
 [2025-09-11 15:43:44,612: INFO: common]: created directory at: artifacts
 [2025-09-11 15:43:44,613: INFO: common]: created directory at: artifacts/data_transformation
+[2025-09-11 16:04:54,945: INFO: main]: stage Data Ingestion stage initiated
+[2025-09-11 16:04:54,946: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-11 16:04:54,947: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-11 16:04:54,947: INFO: common]: created directory at: artifacts
+[2025-09-11 16:04:54,947: INFO: common]: created directory at: artifacts/data_ingestion
+[2025-09-11 16:04:54,947: INFO: data_ingestion]: Data file already exists at artifacts/data_ingestion/data.zip. Skipping download.
+[2025-09-11 16:04:55,093: INFO: main]: Stage Data Ingestion stage Completed
+[2025-09-11 16:04:55,093: INFO: main]: stage Data Transformation stage initiated
+[2025-09-11 16:04:55,094: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-11 16:04:55,095: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-11 16:04:55,095: INFO: common]: created directory at: artifacts
+[2025-09-11 16:04:55,095: INFO: common]: created directory at: artifacts/data_transformation
+[2025-09-11 16:04:59,241: INFO: main]: Stage Data Transformation stage Completed
