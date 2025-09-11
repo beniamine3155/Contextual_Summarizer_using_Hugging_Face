@@ -68,3 +68,36 @@ TypeError: DataIngestionConfig.__init__() missing 1 required positional argument
 [2025-09-11 17:28:55,040: INFO: common]: created directory at: artifacts
 [2025-09-11 17:28:55,040: INFO: common]: created directory at: artifacts/data_transformation
 [2025-09-11 17:28:58,488: INFO: main]: Stage Data Transformation stage Completed
+[2025-09-11 18:08:53,926: INFO: main]: *******************
+[2025-09-11 18:08:53,926: INFO: main]: >>>>>> stage Model Evaluation stage started <<<<<<
+[2025-09-11 18:08:53,928: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-11 18:08:53,928: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-11 18:08:53,928: INFO: common]: created directory at: artifacts
+[2025-09-11 18:08:53,929: INFO: common]: created directory at: artifacts/model_evaluation
+[2025-09-11 18:17:34,945: INFO: main]: *******************
+[2025-09-11 18:17:34,945: INFO: main]: >>>>>> stage Model Evaluation stage started <<<<<<
+[2025-09-11 18:17:34,946: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-11 18:17:34,947: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-11 18:17:34,947: INFO: common]: created directory at: artifacts
+[2025-09-11 18:17:34,947: INFO: common]: created directory at: artifacts/model_evaluation
+[2025-09-11 18:21:35,215: INFO: main]: *******************
+[2025-09-11 18:21:35,215: INFO: main]: >>>>>> stage Model Evaluation stage started <<<<<<
+[2025-09-11 18:21:35,216: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-11 18:21:35,218: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-11 18:21:35,218: INFO: common]: created directory at: artifacts
+[2025-09-11 18:21:35,219: INFO: common]: created directory at: artifacts/model_evaluation
+[2025-09-11 18:27:28,586: INFO: main]: *******************
+[2025-09-11 18:27:28,589: INFO: main]: >>>>>> stage Model Evaluation stage started <<<<<<
+[2025-09-11 18:27:28,591: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-11 18:27:28,592: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-11 18:27:28,592: INFO: common]: created directory at: artifacts
+[2025-09-11 18:27:28,592: INFO: common]: created directory at: artifacts/model_evaluation
+[2025-09-11 18:31:11,700: INFO: test_evaluation]: >>>>>> Model Evaluation Test started <<<<<<
+[2025-09-11 18:31:11,702: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-11 18:31:11,703: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-11 18:31:11,703: INFO: common]: created directory at: artifacts
+[2025-09-11 18:31:11,703: INFO: common]: created directory at: artifacts/model_evaluation
+[2025-09-11 18:42:40,285: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-11 18:42:40,291: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-11 18:42:40,292: INFO: common]: created directory at: artifacts
+[2025-09-11 18:42:40,293: INFO: common]: created directory at: artifacts/model_evaluation

@@ -1,6 +1,6 @@
 from src.Contextual_Summarizer.constants import CONFIG_FILE_PATH, PARAMS_FILE_PATH
 from src.Contextual_Summarizer.utils.common import read_yaml, create_directories
-from src.Contextual_Summarizer.entity import DataIngestionConfig, DataTransformationConfig, ModelTrainerConfig
+from src.Contextual_Summarizer.entity import DataIngestionConfig, DataTransformationConfig, ModelEvaluationConfig, ModelTrainerConfig
 
 class ConfigurationManager:
     def __init__(self, congig_path=CONFIG_FILE_PATH, params_path=PARAMS_FILE_PATH):
@@ -58,3 +58,21 @@ class ConfigurationManager:
             gradient_accumulation_steps = params.gradient_accumulation_steps
         )
         return model_trainer_config
+    
+    
+
+    def get_model_evaluation_config(self) -> ModelEvaluationConfig:
+        config = self.config.model_evaluation
+
+        create_directories([config.root_dir])
+
+        model_evaluation_config = ModelEvaluationConfig(
+            root_dir=config.root_dir,
+            data_path=config.data_path,
+            model_path = config.model_path,
+            tokenizer_path = config.tokenizer_path,
+            metric_file_name = config.metric_file_name
+            
+        )
+
+        return model_evaluation_config

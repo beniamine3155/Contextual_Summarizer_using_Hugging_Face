@@ -1,8 +1,8 @@
-from Contextual_Summarizer.pipeline.model_trainer_pipeline import ModelTrainerTrainingPipeline
+from src.Contextual_Summarizer.pipeline.model_evaluation_pipeline import ModelEvaluationTrainingPipeline
+from src.Contextual_Summarizer.pipeline.model_trainer_pipeline import ModelTrainerTrainingPipeline
 from src.Contextual_Summarizer.pipeline.data_transformation_pipeline import DataTransformationPipeline
-from src.Contextual_Summarizer.logging import logger
 from src.Contextual_Summarizer.pipeline.data_ingestion_pipeline import DataIngestionTrainingPipeline
-
+from src.Contextual_Summarizer.logging import logger
 
 STAGE_NAME="Data Ingestion stage"
 
@@ -37,3 +37,15 @@ try:
 except Exception as e:
     logger.exception(e)
     raise e
+
+
+STAGE_NAME = "Model Evaluation stage"
+try: 
+   logger.info(f"*******************")
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+   model_evaluation = ModelEvaluationTrainingPipeline()
+   model_evaluation.initiate_model_evaluation()
+   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+        logger.exception(e)
+        raise e
